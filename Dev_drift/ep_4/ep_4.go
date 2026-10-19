@@ -26,3 +26,4 @@ var blf bool = false
 
 var str1 string = `str 1`
 var str2 string = "str 2"
+var ln1, ln2 string = "ln1", "ln2"
