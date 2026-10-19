@@ -1,10 +1,11 @@
-package main
+package ep_1
 
 import "fmt"
 
 var users = map[string]int{
 	`Admin`:   1,
 	`Manager`: 2,
+	"User":    4,
 }
 
 func main() {
