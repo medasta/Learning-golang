@@ -8,4 +8,13 @@ func main() {
 
 	var total = one + two
 	fmt.Printf(`Total: [%d]`, total)
+	fmt.Printf(`[+] %d`, one+two)
+	fmt.Printf(`[-] %d`, one-two)
+	fmt.Printf(`[*] %d`, one*two)
+	fmt.Printf(`[/] %d`, one/two)
+	fmt.Printf(`[mod] %d`, one%two)
+	one++
+	two++
+	one--
+	two--
 }
